@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(227, 224, 238);
+    display:grid;
+    height:100vh;
+    grid-template-rows: auto auto 1fr auto;
+    margin:0;
+    
+}
+
+nav{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    height:7vh;
+    align-items: center;
+    padding-left: 1rem;
+    font-family: 'Besley', serif;
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+
+header{
+    background-color: #201E50;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main{
+    background-color: #525B76;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer{
+    background-color: #201E50;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
+h1{
+    color:white;
+    font-size: 50pt;
+    font-family: 'Besley', serif;
+    font-weight: 800;
+
+}
+
+h2{
+    color:white;
+    font-size: 20pt;
+    font-family: 'Besley', serif;
+
+}
+
+p{
+    color:white;
+    font-family: 'Besley', serif;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  a{
+      text-decoration:none;
+      color: #201E50;
+      
+  }
+
+  table{
+    font-family: 'Besley', serif;
+    font-size: 10pt;
+    border: 1px solid rgb(58, 58, 58);
+    max-width: 75%;
+    
+
+  }
+  th{
+    border: 1px solid rgb(58, 58, 58);
+}
+
+  tr{
+    border: 1px solid rgb(58, 58, 58);
+}
+
+  td{
+    border: 1px solid rgb(58, 58, 58);
+  }
+
